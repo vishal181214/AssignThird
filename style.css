@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+}
+
+.main{
+    width: 100%;
+    background-color: gray;
+    padding: 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.header{
+    width: 22%;
+    margin-top: 5px;
+    background-color: white;
+    border: 5px solid red;
+    text-align: center;
+    color: rgb(241, 41, 114);
+    padding: 0px 45px 0px 45px;
+    border-radius: 10px;
+    box-shadow: 7px 7px purple;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(135, 25, 65);
+}
+
+.color{
+    width: 180px;
+    background-color: rgb(183, 243, 243);
+    margin-left: 80px;
+}
+
+.set{
+    margin-top:-20px;
+}
+
+.cont{
+    width: 1490px;
+    height: 700px;
+    border: 14px solid green;
+}
+
+.addss{
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    width: 18%;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px 10px 30px 10px;
+    float: left;
+    color: blueviolet;
+    text-shadow: 1px 1px rgb(59, 17, 98);
+    box-shadow: 7px 7px purple;
+    background-color: white;
+}
+
+.image{
+    width: 18%;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    float: right;
+    clear: both;
+    margin-left: 1100px;
+    position: absolute;
+    box-shadow: 7px 7px purple;
+}
+
+.image img{
+    border: 2px solid black;
+}
+
+.center{
+    width: 40%;
+    border: 5px solid red;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: yellow;
+    box-shadow: 7px 7px purple;
+    position: fixed;
+}
+
+.cent{
+    /* border: 1px solid purple; */
+    width: 40%;
+    text-align: center;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(194, 18, 18);
+    /* background-color: yellow; */
+}
+
+.offer{
+    /* border: 2px solid green; */
+    width: 40%;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(194, 18, 18);
+}
+
+.serv{
+    border: 5px solid red;
+    border-radius:10px;
+    width: 18%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+    color: blueviolet;
+    box-shadow: 7px 7px purple;
+    padding: 30px 10px 30px 10px;
+    margin-top: 420px;
+    margin-left: -298px;
+    float: left;
+    background-color: white;
+}
+
+.rate{
+    border: 5px solid red;
+    text-align: center;
+    width: 20%;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+    color: blueviolet;
+    box-shadow: 7px 7px purple;
+    border-radius: 10px;
+    margin-top: 400px;
+    background-color: white;
+    margin-right:60px;
+}
+
+#num{
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+button{
+  background-color: red;
+  width: 100px;
+  padding: 2px;
+  border-radius: 50px;
+}
+
+.store{
+    clear: both;
+    width: 50%;
+    border: 5px solid purple;
+    margin-left: 350px;
+    margin-top:30px;
+    text-align: center;
+    background-color: green;
+    padding-bottom: 2px;
+}
+
+.frveg{
+    width: 100%;
+    display: flex;
+}
+
+.fruit{
+    /* border: 2px solid blue; */
+    width: 49%;
+    text-align: center;
+    background-color: rgb(246, 246, 183);
+}
+
+.veg{
+    border: 2px solid green;
+    width: 49%;
+    text-align: center;
+    background-color: rgb(246, 246, 183);
+    margin-left: 13px;
+}
+
+.other{
+    width: 100%;
+    background-color: rgb(246, 246, 183);
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.fruit .veg .other h3{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+
+
+
+/* store frveg fruit veg other */
